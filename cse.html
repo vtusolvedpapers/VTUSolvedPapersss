@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSE/ISE</title>
+    <link href="tailwind.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="input.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="bg-black">
+    <nav class="bg-black">
+        <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 ">
+          <div class="relative flex h-16 items-center justify-between">
+            <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+              <!-- Mobile menu button-->
+              <button
+                type="button"
+                class="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+                aria-controls="mobile-menu"
+                aria-expanded="false"
+              >
+                <span class="sr-only">Open main menu</span>
+                <!--
+                    Icon when menu is closed.
+        
+                    Menu open: "hidden", Menu closed: "block"
+                  -->
+                <svg
+                  class="block h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                  />
+                </svg>
+                <!--
+                    Icon when menu is open.
+        
+                    Menu open: "block", Menu closed: "hidden"
+                  -->
+                <svg
+                  class="hidden h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div
+              class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start "
+            >
+              <div class="flex flex-shrink-0 items-center">
+                <img class="block h-8 w-auto lg:hidden" src="images/vtunav.jpg" alt="Your Company">
+                <img class="hidden h-8 w-auto lg:block" src="images/vtunav.jpg" alt="Your Company">
+                <h1 class="text-white"> VTU SOLVED PAPERS </h1>
+              </div>
+              <div class="hidden sm:ml-6 sm:block">
+                <div class="flex space-x-4">
+                  <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+                  <a
+                  href="index.html"
+                  class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+                  >Home</a
+                  >
+                  <a
+                    href="about.html"
+                    class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+                    >About Us</a
+                  >
+                  <a
+                    href="#"
+                    class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+                    >Contact Us</a
+                  >
+                  <a
+                    href="https://vtu-sgpa.weebly.com/"
+                    class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+                    >CGPA Calculator</a
+                  >
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Mobile menu, show/hide based on menu state. -->
+        <div class="sm:hidden" id="mobile-menu">
+          <div class="space-y-1 px-2 pb-3 pt-2">
+            <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+            <a
+            href="index.html"
+            class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+            >Home</a
+            >
+            <a
+              href="about.html"
+              class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+              >About Us</a
+            >
+            <a
+              href="#"
+              class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+              >Contact Us</a
+            >
+            <a
+              href="https://vtu-sgpa.weebly.com/"
+              class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+              >CGPA Calculator</a
+            >
+          </div>
+        </div>
+      </nav>
+      <h1 class="w-50 px-2 py-4  text-white mt-20 text flex justify-center">CSE/ISE</h1>
+      <div>
+        <h1 class="w-50 px-2 py-4  text-white mt-20 text flex justify-center">3RD SEMESTER</h1>
+
+          
+      <div class="flex flex-wrap">
+        <button class="w-full bg-black hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onclick="window.open('https://klsvdit.edu.in/wp-content/uploads/2022/03/18MAT31_QP-SCHEME-OF-EVALUATION_-JAN-FEB-2021.pdf')">18MAT31</button>
+        <button class="w-full bg-black hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onclick="window.open('https://klsvdit.edu.in/wp-content/uploads/2022/04/21MAT11-VTU-Model-Question-Paper-Solutio-20220418192100.pdf')">21MAT31</button>
+        <button class="w-full bg-black hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onclick="window.open('http://203.201.63.46:8080/jspui/bitstream/123456789/6564/1/VTU%20exam%20Question%20Paper%20with%20Solution%20of%2018CS32%20Data%20Structures%20And%20Applications%20%20%20April-2022-Akhilaa%20and%20Chithambarathanu.pdf')">18CS32</button>
+        <button class="w-full bg-black hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onclick="window.open('http://203.201.63.46:8080/jspui/bitstream/123456789/6564/3/VTU%20exam%20Question%20Paper%20with%20Solution%20of%2018CS33%20Analog%20and%20Digital%20Electronics%20April-2022-Harish%20L.pdf')">18CS33</button>
+      </div>
+      <div class="flex flex-wrap">
+        <button class="w-full bg-black hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onclick="window.open('http://203.201.63.46:8080/jspui/bitstream/123456789/6564/4/VTU%20exam%20Question%20Paper%20with%20Solution%20of%2018CS34%20Computer%20Organization%20April-2022-Dr.S.Seetha.pdf')">18CS34</button>
+        <button class="w-full bg-black hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onclick="window.open('http://203.201.63.46:8080/jspui/bitstream/123456789/6564/6/VTU%20exam%20Question%20Paper%20with%20Solution%20of%2018CS35%20Software%20Engineering%20April-2022-Harish%20L.pdf')">18CS35</button>
+        <button class="w-full bg-black hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onclick="window.open('http://203.201.63.46:8080/jspui/bitstream/123456789/6564/7/VTU%20exam%20Question%20Paper%20with%20Solution%20of%2018CS36%20Discrete%20Mathematical%20Structures%20April-2022-Asha%20K%20N.pdf')">18CS36</button>
+      </div>
+    </div> 
+
+    <div>
+      <h1 class="w-50 px-2 py-4  text-white mt-20 text flex justify-center">4TH SEMESTER</h1>
+
+        
+    <div class="flex flex-wrap">
+      <button class="w-full bg-black hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onclick="window.open('https://klsvdit.edu.in/wp-content/uploads/2021/07/2019-20-4-th-SEM-VTU-scheme-SET-1.pdf')">18MAT41</button>
+      <button class="w-full bg-black hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onclick="window.open('https://klsvdit.edu.in/wp-content/uploads/2021/07/Design-and-Analysis-of-Algorithms_QP_Solution_18CS42.pdf')">18CS42</button>
+      <button class="w-full bg-black hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onclick="window.open('http://203.201.63.46:8080/jspui/bitstream/123456789/6710/18/VTU%20exam%20Question%20Paper%20with%20Solution%20of%2018CS43%20Operating%20systems%20Oct-2022-Divya%20Singh_Rashmi%20D.pdf')">18CS43</button>
+    </div>
+    <div class="flex flex-wrap">
+      <button class="w-full bg-black hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onclick="window.open('http://203.201.63.46:8080/jspui/bitstream/123456789/6710/17/VTU%20exam%20Question%20Paper%20with%20Solution%20of%2018CS44%20Microcontroller%20and%20Embedded%20System%20Sep-2022-Harish%20L.pdf')">18CS44</button>
+      <button class="w-full bg-black hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onclick="window.open('http://203.201.63.46:8080/jspui/bitstream/123456789/6710/15/VTU%20exam%20Question%20Paper%20with%20Solution%20of%2018CS45%20Object%20Oriented%20Concept%20%20Aug-2022-Dr.Sanchari%20Saha.pdf')">18CS45</button>
+      <button class="w-full bg-black hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onclick="window.open('http://203.201.63.46:8080/jspui/bitstream/123456789/6710/13/VTU%20exam%20Question%20Paper%20with%20Solution%20of%2018CS46%20Data%20Communication%20July-2022-Vyshali%20Rao%20K%20P.pdf')">18CS46</button>
+    </div>
+  </div>
+  
+  <div>
+    <h1 class="w-50 px-2 py-4  text-white mt-20 text flex justify-center">5TH SEMESTER</h1>
+
+      
+  <div class="flex flex-wrap">
+    <button class="w-full bg-black hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onclick="window.open('http://203.201.63.46:8080/jspui/bitstream/123456789/6564/8/VTU%20exam%20Question%20Paper%20with%20Solution%20of%2018CS51%20Management%20and%20Entrepreneurship%20for%20IT%20Industry%20Feb-2022-Dr.%20Ganesh%20D%20R%2c%20Prof.%20Chithambarathanu%20M%2c%20Dr.%20Mannar%20Mannan.pdf')">18CS51</button>
+    <button class="w-full bg-black hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onclick="window.open('http://203.201.63.46:8080/jspui/bitstream/123456789/6564/9/VTU%20exam%20Question%20Paper%20with%20Solution%20of%2018CS52%20Computer%20Network%20and%20Security%20Feb-2022-Vyshali%20Rao%20K%20P.pdf')">18CS52</button>
+    <button class="w-full bg-black hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onclick="window.open('https://klsvdit.edu.in/wp-content/uploads/2022/03/DBMS18CS53.pdf')">18CS53</button>
+  </div>
+  <div class="flex flex-wrap">
+    <button class="w-full bg-black hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onclick="window.open('https://klsvdit.edu.in/wp-content/uploads/2022/08/18CS54-ATC-04-08-2022.pdf')">18CS54</button>
+    <button class="w-full bg-black hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onclick="window.open('http://203.201.63.46:8080/jspui/bitstream/123456789/6564/10/VTU%20exam%20Question%20Paper%20with%20Solution%20of%2018CS55%20ADP%20March-2022-P.%20Devisivasankari.pdf')">18CS55</button>
+    <button class="w-full bg-black hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onclick="window.open('http://203.201.63.46:8080/jspui/bitstream/123456789/6564/12/VTU%20exam%20Question%20Paper%20with%20Solution%20of%2018CS56%20Unix%20Programming%20Feb-2022-Shilpa%20Mangesh%20Pande.pdf')">18CS56</button>
+  </div>
+</div>
+
+<div>
+  <h1 class="w-50 px-2 py-4  text-white mt-20 text flex justify-center">6TH SEMESTER</h1>
+
+    
+<div class="flex flex-wrap">
+  <button class="w-full bg-black hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onclick="window.open('http://203.201.63.46:8080/jspui/bitstream/123456789/6710/12/VTU%20exam%20Question%20Paper%20with%20Solution%20of%2018CS61%20System%20Software%20and%20Compilers%20July-2022-Sagarika%20Behera.pdf')">18CS61</button>
+  <button class="w-full bg-black hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onclick="window.open('https://klsvdit.edu.in/wp-content/uploads/2021/07/CGV-Model-Question-Paper.pdf')">18CS62</button>
+  <button class="w-full bg-black hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onclick="window.open('https://klsvdit.edu.in/wp-content/uploads/2021/07/18CS641.pdf')">18CS641</button>
+  <button class="w-full bg-black hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onclick="window.open('https://klsvdit.edu.in/wp-content/uploads/2021/07/18CS644-Advanced-JAVA-J2EE.pdf')">18CS644</button>
+  <button class="w-full bg-black hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onclick="window.open('http://203.201.63.46:8080/jspui/bitstream/123456789/6710/6/VTU%20exam%20Question%20Paper%20with%20Solution%20of%2018CS643%20Cloud%20Computing%20and%20its%20Applications%20July-2022-Dr%20Senthil%20Velan%20S.pdf')">18CS643</button>
+  <button class="w-full bg-black hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onclick="window.open('http://203.201.63.46:8080/jspui/bitstream/123456789/6710/11/VTU%20exam%20Question%20Paper%20with%20Solution%20of%2018CS63%20Web%20Technology%20and%20its%20applications%20%20Aug-2022-Dr.%20Sudhakar%20K%20N%20%26%20Dr.%20Ganesh%20D%20R%20.pdf')">18CS63</button>
+</div>
+
+</div> 
+ 
+<div>
+  <h1 class="w-50 px-2 py-4  text-white mt-20 text flex justify-center">7TH SEMESTER</h1>
+
+    
+<div class="flex flex-wrap">
+  <button class="w-full bg-black hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onclick="window.open('https://klsvdit.edu.in/wp-content/uploads/2022/03/18CS7120220331_14283821.pdf')">18CS71</button>
+  <button class="w-full bg-black hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onclick="window.open('https://klsvdit.edu.in/wp-content/uploads/2022/03/18CS751-Prof.-Pranesh-K17-03-2022.pdf')">18CS751</button>
+  <button class="w-full bg-black hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onclick="window.open('http://203.201.63.46:8080/jspui/bitstream/123456789/6564/15/VTU%20exam%20Question%20Paper%20with%20Solution%20of%2018CS734%20%20User%20Interface%20Design%20Feb-2022-Dr.%20Ganesh%20D%20R%2c%20Dr.%20Anand%20.pdf')">18CS734</button>
+  <button class="w-full bg-black hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onclick="window.open('http://203.201.63.46:8080/jspui/bitstream/123456789/6564/13/VTU%20exam%20Question%20Paper%20with%20Solution%20of%2018CS72%20Big%20Data%20Analytics%20April-2022-Sreedevi%20N.pdf')">18CS72</button>
+  <button class="w-full bg-black hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onclick="window.open('http://203.201.63.46:8080/jspui/bitstream/123456789/6564/16/VTU%20exam%20Question%20Paper%20with%20Solution%20of%2018CS753%20Introduction%20to%20Artificial%20Intelligence%20March-2022-Dr.%20Srividya%20R.pdf')">18CS753</button>
+</div>
+
+</div> 
+
+<div>
+  <h1 class="w-50 px-2 py-4  text-white mt-20 text flex justify-center">8TH SEMESTER</h1>
+
+    
+<div class="flex flex-wrap">
+  <button class="w-full bg-black hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onclick="window.open('http://203.201.63.46:8080/jspui/bitstream/123456789/6710/8/VTU%20exam%20Question%20Paper%20with%20Solution%20of%2018CS81%20Internet%20Of%20Things%20July-2022-Dr.%20Srividya%20R.pdf')">18CS81</button>
+  <button class="w-full bg-black hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onclick="window.open('http://203.201.63.46:8080/jspui/bitstream/123456789/6710/4/VTU%20exam%20Question%20Paper%20with%20Solution%20of%2018CS822%20%20Storage%20Area%20Networks%20July-2022-Anand%20R.pdf')">18CS822</button>
+  <button class="w-full bg-black hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onclick="window.open('http://203.201.63.46:8080/jspui/bitstream/123456789/6710/4/VTU%20exam%20Question%20Paper%20with%20Solution%20of%2018CS822%20%20Storage%20Area%20Networks%20July-2022-Anand%20R.pdf')">18CS833</button>
+</div>
+
+</div> 
+    
+            
+
+</body>
+<footer class="bg-black text-white">
+  <div class="container mx-auto">
+    <div class="flex justify-center align-items-center">
+      <div class="mt-4">
+        <span>Copyright © 2023 VTU Solved Papers</span>
+      </div>
+     
+    </div>
+  </div>
+</footer>
+</html>
